@@ -11,13 +11,13 @@
 */
 
 .task-title {
-    font-family: "Montserrat", sans-serif;
-    color: lightsteelblue;
-  }
-  .efecto-pagina-2,
-  .efecto-pagina-3 {
-    border: solid rgb(217, 224, 226);
-  }
+  font-family: "Montserrat", sans-serif;
+  color: lightsteelblue;
+}
+.efecto-pagina-2,
+.efecto-pagina-3 {
+  border: solid rgb(217, 224, 226);
+}
 
 @media (hover: hover) {
   .task-body-out:hover {
@@ -30,27 +30,25 @@
   }
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-.task-in{
-    font-size: x-large;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-  }
-  .task-in::placeholder{
-    color: darkgray;
-  }
+.task-in {
+  font-family: "Montserrat", sans-serif;
+  
+}
 
-  .task-body-out {
-    height: auto;
-    font-size: x-large;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    word-wrap: break-word
-  }
+.task-in::placeholder {
+  color: darkgray;
+}
 
-  .task-body {
-    border: solid rgb(217, 224, 226);
-  }
+.task-body-out {
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  word-wrap: break-word;
+}
+
+.task-body {
+  border: solid rgb(217, 224, 226);
+}
